@@ -1,0 +1,57 @@
+<idea-plugin>
+    <id>com.bennywu.panda-vivid-black</id>
+    <name>Panda Vivid Black &amp; Modern Dark Theme</name>
+    <version>1.2.1</version>
+    <vendor email="contact@bennywu.dev" url="https://github.com/Aniu456/panda-vivid-black">BennyWu</vendor>
+
+    <description><![CDATA[
+        <b>Panda Vivid Black</b> — Panda Syntax token semantics on a pure-black Vivid Black UI.<br><br>
+        Fuses the <a href="https://github.com/siamak/panda-syntax-vscode">Panda Syntax</a> palette
+        (pink keywords, teal strings, blue functions, italic teal types) with a deep-black
+        Vivid Black shell. Tuned for <b>Operator Mono</b>.<br><br>
+        Also available for VS Code.
+    ]]></description>
+
+    <change-notes><![CDATA[
+<b>1.2.1</b><ul><li>Dart: named-argument labels (DART_PARAMETER_REFERENCE) cyan in Modern Dark; static getters like WidgetsBinding.instance (DART_STATIC_GETTER_REFERENCE) use the property colour</li><li>All Dart/Kotlin/Logcat keys verified against Android Studio 2026.2 jars; invented keys removed, real keys (method tear-offs, LOGCAT_V2_*, LOGCAT_FILTER_*) added</li></ul>
+        <b>1.2.0</b>
+        <ul>
+            <li>New theme: Panda Modern Dark (+ Islands variant), ported from the VS Code Panda Modern Dark</li>
+            <li>Android Studio tuning for Kotlin/Compose, Dart/Flutter, Android XML, Gradle, TOML, Logcat, diff &amp; VCS</li>
+        </ul>
+        <b>1.1.0</b>
+        <ul>
+            <li>Android Studio tuning: explicit Kotlin (KOTLIN_*) and Dart/Flutter (DART_*) keys</li>
+            <li>Java, Android XML, Groovy/Gradle, JSON/YAML/TOML, console ANSI, Logcat, diff &amp; VCS colors</li>
+        </ul>
+        <b>1.0.3</b>
+        <ul>
+            <li>Add Islands (New UI) theme variant — fixes code-completion popup and terminal colors on GoLand 2026.x New UI</li>
+        </ul>
+        <b>1.0.1</b>
+        <ul>
+            <li>Unified sidebar/panel backgrounds to #07080A (incl. New UI TreeView/ProjectView/Header/MainMenu/TitlePane)</li>
+            <li>Terminal (console) background now follows theme</li>
+            <li>Buttons: shadow off, primary button accent darkened</li>
+        </ul>
+        <b>1.0.0</b>
+        <ul>
+            <li>Initial release: Panda Syntax semantics on a pure-black Vivid Black UI</li>
+        </ul>
+    ]]></change-notes>
+
+    <idea-version since-build="243"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.bennywu.PandaVividBlack"
+                       path="/themes/PandaVividBlack.theme.json"/>
+        <themeProvider id="com.bennywu.PandaVividBlackIslands"
+                       path="/themes/PandaVividBlackIslands.theme.json"/>
+        <themeProvider id="com.bennywu.PandaModernDark"
+                       path="/themes/PandaModernDark.theme.json"/>
+        <themeProvider id="com.bennywu.PandaModernDarkIslands"
+                       path="/themes/PandaModernDarkIslands.theme.json"/>
+    </extensions>
+</idea-plugin>
