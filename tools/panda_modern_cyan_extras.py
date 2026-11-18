@@ -109,3 +109,22 @@ COMMON.update(FORCE)
 _ns["apply_real_keys"](COMMON, P, italic=0, named_label=P["prop"], bg="#0C0C0C",
                        logcat=dict(VERBOSE="#888888", DEBUG="#79B8FF", INFO="#7EE787",
                                    WARNING="#FFA618", ERROR="#F14C4C", ASSERT="#B669C7"))
+
+# 1.3.1: mixed purple. Property / field access and declarations use the
+# function purple; member method calls (`.map()`, `Foo.bar()`) use the
+# property blue. Method declarations, top-level / local function calls and
+# named-argument labels (DART_PARAMETER_REFERENCE) keep their colours.
+# Not splittable in JetBrains: DART_CONSTRUCTOR covers both `ThemeData` in
+# `ThemeData(...)` and `fromSeed` in `ThemeData.fromSeed(...)` (kept cyan);
+# implicit-this calls such as `setState()` are DART_INSTANCE_METHOD_REFERENCE
+# like `.map()`, so they turn blue too.
+for k in ("DART_INSTANCE_FIELD_DECLARATION", "DART_INSTANCE_FIELD_REFERENCE",
+          "DART_INSTANCE_GETTER_DECLARATION", "DART_INSTANCE_GETTER_REFERENCE",
+          "DART_INSTANCE_SETTER_DECLARATION", "DART_INSTANCE_SETTER_REFERENCE",
+          "DART_STATIC_GETTER_DECLARATION", "DART_STATIC_GETTER_REFERENCE",
+          "DART_STATIC_SETTER_DECLARATION", "DART_STATIC_SETTER_REFERENCE",
+          "JS.INSTANCE_MEMBER_VARIABLE", "JS.STATIC_MEMBER_VARIABLE"):
+    COMMON[k] = (P["fn"], None, None)
+for k in ("DART_INSTANCE_METHOD_REFERENCE", "DART_STATIC_METHOD_REFERENCE",
+          "DART_INSTANCE_METHOD_TEAR_OFF", "DART_STATIC_METHOD_TEAR_OFF"):
+    COMMON[k] = (P["prop"], None, None)

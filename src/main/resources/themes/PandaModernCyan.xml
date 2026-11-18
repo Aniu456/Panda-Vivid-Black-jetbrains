@@ -737,32 +737,32 @@
     </option>
     <option name="DART_INSTANCE_FIELD_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_INSTANCE_FIELD_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_INSTANCE_GETTER_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_INSTANCE_GETTER_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_INSTANCE_SETTER_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_INSTANCE_SETTER_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_STATIC_FIELD_DECLARATION">
@@ -772,22 +772,22 @@
     </option>
     <option name="DART_STATIC_GETTER_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_STATIC_GETTER_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_STATIC_SETTER_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_STATIC_SETTER_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="79B8FF"/>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="DART_TOP_LEVEL_VARIABLE_DECLARATION">
@@ -1184,12 +1184,12 @@
     </option>
     <option name="DART_INSTANCE_METHOD_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="B084FF"/>
+        <option name="FOREGROUND" value="79B8FF"/>
       </value>
     </option>
     <option name="DART_INSTANCE_METHOD_TEAR_OFF">
       <value>
-        <option name="FOREGROUND" value="B084FF"/>
+        <option name="FOREGROUND" value="79B8FF"/>
       </value>
     </option>
     <option name="DART_STATIC_METHOD_DECLARATION">
@@ -1199,12 +1199,12 @@
     </option>
     <option name="DART_STATIC_METHOD_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="B084FF"/>
+        <option name="FOREGROUND" value="79B8FF"/>
       </value>
     </option>
     <option name="DART_STATIC_METHOD_TEAR_OFF">
       <value>
-        <option name="FOREGROUND" value="B084FF"/>
+        <option name="FOREGROUND" value="79B8FF"/>
       </value>
     </option>
     <option name="DART_TOP_LEVEL_FUNCTION_TEAR_OFF">
@@ -1724,6 +1724,16 @@
     <option name="DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="888888"/>
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="B084FF"/>
+      </value>
+    </option>
+    <option name="JS.STATIC_MEMBER_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="B084FF"/>
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
