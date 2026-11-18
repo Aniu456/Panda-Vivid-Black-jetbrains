@@ -1,0 +1,173 @@
+{
+  "name": "Panda Modern Cyan (Islands)",
+  "dark": true,
+  "author": "BennyWu",
+  "editorScheme": "/themes/PandaModernCyan.xml",
+  "parentTheme": "Islands Dark",
+  "colors": {
+    "accentColor": "#008AC6",
+    "secondaryAccentColor": "#4FE6C8",
+    "primaryForeground": "#E8E8E8",
+    "primaryBackground": "#0F0F0F",
+    "secondaryBackground": "#0C0C0C",
+    "hoverBackground": "#FFFFFF",
+    "selectionBackground": "#005F82",
+    "selectionInactiveBackground": "#1e2b2a",
+    "borderColor": "#1a1a1a",
+    "separatorColor": "#1a1a1a",
+    "editorBackground": "#0C0C0C",
+    "transparent": "#00000000"
+  },
+  "ui": {
+    "*": {
+      "background": "primaryBackground",
+      "selectionForeground": "primaryForeground",
+      "selectionInactiveForeground": "primaryForeground",
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "inactiveBackground": "primaryBackground",
+      "disabledBackground": "primaryBackground",
+      "borderColor": "borderColor",
+      "separatorColor": "separatorColor"
+    },
+    "Editor": {
+      "background": "editorBackground"
+    },
+    "EditorTabs": {
+      "background": "primaryBackground",
+      "underlinedTabBackground": "secondaryBackground",
+      "underlinedBorderColor": "accentColor",
+      "underlineHeight": 2
+    },
+    "CompletionPopup": {
+      "background": "secondaryBackground",
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "matchForeground": "accentColor"
+    },
+    "List": {
+      "background": "secondaryBackground",
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "hoverBackground": "selectionInactiveBackground",
+      "hoverInactiveBackground": "selectionInactiveBackground"
+    },
+    "Tree": {
+      "background": "primaryBackground",
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "hoverBackground": "selectionInactiveBackground",
+      "hoverInactiveBackground": "selectionInactiveBackground"
+    },
+    "ToolWindow": {
+      "background": "primaryBackground",
+      "Header": {
+        "background": "primaryBackground",
+        "inactiveBackground": "primaryBackground"
+      },
+      "HeaderTab": {
+        "underlineColor": "accentColor",
+        "underlineHeight": 2,
+        "underlinedTabBackground": "secondaryBackground",
+        "underlinedTabInactiveBackground": "secondaryBackground"
+      },
+      "Stripe": {
+        "background": "secondaryBackground",
+        "borderColor": "transparent"
+      }
+    },
+    "SidePanel": {
+      "background": "primaryBackground"
+    },
+    "StatusBar": {
+      "background": "secondaryBackground",
+      "borderColor": "transparent"
+    },
+    "MainToolbar": {
+      "background": "secondaryBackground",
+      "borderColor": "transparent"
+    },
+    "MainWindow": {
+      "background": "secondaryBackground"
+    },
+    "MainWindow.Tab": {
+      "selectedBackground": "selectionBackground",
+      "selectedForeground": "primaryForeground",
+      "selectedInactiveBackground": "secondaryBackground",
+      "hoverBackground": "hoverBackground",
+      "hoverForeground": "primaryForeground",
+      "separatorColor": "separatorColor"
+    },
+    "SearchEverywhere": {
+      "background": "secondaryBackground",
+      "SearchField": {
+        "background": "secondaryBackground"
+      },
+      "Tab": {
+        "selectedBackground": "selectionBackground",
+        "selectedForeground": "primaryForeground"
+      }
+    },
+    "TextField": {
+      "background": "secondaryBackground"
+    },
+    "PasswordField": {
+      "background": "secondaryBackground"
+    },
+    "ComboBox": {
+      "background": "secondaryBackground",
+      "nonEditableBackground": "secondaryBackground",
+      "ArrowButton": {
+        "background": "secondaryBackground",
+        "nonEditableBackground": "secondaryBackground"
+      }
+    },
+    "Button": {
+      "foreground": "primaryForeground",
+      "startBackground": "#1c2a27",
+      "endBackground": "#1c2a27",
+      "startBorderColor": "borderColor",
+      "endBorderColor": "borderColor",
+      "focusedBorderColor": "accentColor",
+      "default": {
+        "foreground": "primaryForeground",
+        "startBackground": "#0c7767",
+        "endBackground": "#0c7767",
+        "startBorderColor": "accentColor",
+        "endBorderColor": "accentColor",
+        "focusColor": "accentColor",
+        "focusedBorderColor": "accentColor"
+      }
+    },
+    "ProgressBar": {
+      "progressColor": "accentColor",
+      "trackColor": "selectionBackground",
+      "indeterminateStartColor": "accentColor",
+      "indeterminateEndColor": "#4FE6C8",
+      "passedColor": "#22E67A",
+      "passedEndColor": "#22E67A"
+    },
+    "Link": {
+      "activeForeground": "accentColor",
+      "hoverForeground": "accentColor",
+      "visitedForeground": "accentColor",
+      "pressedForeground": "accentColor"
+    },
+    "Separator": {
+      "separatorColor": "separatorColor"
+    },
+    "ScrollBar": {
+      "Mac": {
+        "hoverThumbColor": "accentColor",
+        "Transparent": {
+          "hoverThumbColor": "accentColor"
+        }
+      }
+    },
+    "Island": {
+      "borderColor": "primaryBackground",
+      "arc": "20",
+      "borderWidth": "6"
+    }
+  }
+}

@@ -83,6 +83,20 @@ THEMES = [
         "islands": True,
         "extras": "panda_modern_dark_extras",
     },
+
+    {
+        "key": "panda-modern-cyan",
+        "vscode_dir": ROOT_DIR / "vscode" / "panda-vivid-black" / "themes",
+        "vscode_file": "panda-modern-cyan-color-theme.json",
+        "output_dir": ROOT_DIR / "idea" / "panda-vivid-black" / "src" / "main" / "resources" / "themes",
+        "name": "Panda Modern Cyan",
+        "id": "PandaModernCyan",
+        "dark": True,
+        "preserve_source_contrast": True,
+        "editor_font": "Operator Mono",
+        "islands": True,
+        "extras": "panda_modern_cyan_extras",
+    },
 ]
 
 # VSCode token scope → IntelliJ attribute names
