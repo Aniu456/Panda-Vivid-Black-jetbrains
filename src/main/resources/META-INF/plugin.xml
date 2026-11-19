@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.bennywu.panda-vivid-black</id>
     <name>Panda Vivid Black &amp; Modern Dark Theme</name>
-    <version>1.3.1</version>
+    <version>1.4.0</version>
     <vendor email="contact@bennywu.dev" url="https://github.com/Aniu456/panda-vivid-black">BennyWu</vendor>
 
     <description><![CDATA[
@@ -9,10 +9,14 @@
         Fuses the <a href="https://github.com/siamak/panda-syntax-vscode">Panda Syntax</a> palette
         (pink keywords, teal strings, blue functions, italic teal types) with a deep-black
         Vivid Black shell. Tuned for <b>Operator Mono</b>.<br><br>
-        Also includes <b>Panda Modern Dark</b> and <b>Panda Modern Cyan</b>. Available for VS Code.
+        Also includes <b>Panda Modern Dark</b>, <b>Panda Modern Cyan</b> and <b>Panda Flutter Dark</b>. Available for VS Code.
     ]]></description>
 
     <change-notes><![CDATA[
+        <b>1.4.0</b>
+        <ul>
+            <li>New theme: Panda Flutter Dark (+ Islands variant), recreating the official DartPad / Flutter dark syntax colors on the Modern Dark / Modern Cyan near-black UI (<code>#0C0C0C</code> background): green keywords (<code>#50E191</code>), orange types (<code>#FF916E</code>), cyan functions / methods / fields / getters / parameters / named arguments / locals (<code>#00D2FA</code>), pink strings (<code>#FA557D</code>), gray numbers and annotations (<code>#909090</code>), blue-gray comments (<code>#909CC3</code>). Existing themes unchanged</li>
+        </ul>
         <b>1.3.1</b>
         <ul>
             <li>Panda Modern Cyan: Dart field / getter / setter declarations and references use purple (<code>#B084FF</code>); instance and static method calls and tear-offs use blue (<code>#79B8FF</code>). Method declarations, top-level function calls and named-argument labels are unchanged</li>
@@ -65,5 +69,9 @@
                        path="/themes/PandaModernCyan.theme.json"/>
         <themeProvider id="com.bennywu.PandaModernCyanIslands"
                        path="/themes/PandaModernCyanIslands.theme.json"/>
+        <themeProvider id="com.bennywu.PandaFlutterDark"
+                       path="/themes/PandaFlutterDark.theme.json"/>
+        <themeProvider id="com.bennywu.PandaFlutterDarkIslands"
+                       path="/themes/PandaFlutterDarkIslands.theme.json"/>
     </extensions>
 </idea-plugin>

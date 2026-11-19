@@ -97,6 +97,19 @@ THEMES = [
         "islands": True,
         "extras": "panda_modern_cyan_extras",
     },
+    {
+        "key": "panda-flutter-dark",
+        "vscode_dir": ROOT_DIR / "vscode" / "panda-vivid-black" / "themes",
+        "vscode_file": "panda-flutter-dark-color-theme.json",
+        "output_dir": ROOT_DIR / "idea" / "panda-vivid-black" / "src" / "main" / "resources" / "themes",
+        "name": "Panda Flutter Dark",
+        "id": "PandaFlutterDark",
+        "dark": True,
+        "preserve_source_contrast": True,
+        "editor_font": "Operator Mono",
+        "islands": True,
+        "extras": "panda_flutter_dark_extras",
+    },
 ]
 
 # VSCode token scope → IntelliJ attribute names
@@ -928,8 +941,12 @@ def convert_theme(theme_info: dict):
     token_colors = data.get("tokenColors", [])
 
     # --- Generate .theme.json ---
+    # Optional per-theme UI-only colour overrides (extras.UI_COLOR_OVERRIDES):
+    # applied to the .theme.json / Islands UI, never to the editor scheme XML.
+    extras_mod = _load_extras(theme_info.get("extras"))
+    ui_source = {**colors, **getattr(extras_mod, "UI_COLOR_OVERRIDES", {})}
     ui_colors = build_ui_colors(
-        colors,
+        ui_source,
         dark,
         preserve_source_contrast=theme_info.get("preserve_source_contrast", False),
     )
@@ -950,7 +967,7 @@ def convert_theme(theme_info: dict):
     # --- Generate Islands (New UI) variant if requested ---
     if theme_info.get("islands", False):
         islands_theme = build_islands_theme(
-            name, tid, colors, f"/themes/{tid}.xml"
+            name, tid, ui_source, f"/themes/{tid}.xml"
         )
         islands_path = out_dir / f"{tid}Islands.theme.json"
         islands_path.write_text(
@@ -961,7 +978,7 @@ def convert_theme(theme_info: dict):
     # --- Generate .xml color scheme ---
     xml_content = build_color_scheme_xml(
         name, dark, colors, token_colors, theme_info.get("editor_font"),
-        extras=_load_extras(theme_info.get("extras")),
+        extras=extras_mod,
     )
     xml_path = out_dir / f"{tid}.xml"
     xml_path.write_text(xml_content, encoding="utf-8")
