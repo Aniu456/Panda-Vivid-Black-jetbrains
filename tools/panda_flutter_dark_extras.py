@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 KW, TYPE, CY = "#50E191", "#FF916E", "#00D2FA"
-STR, STR2, NUM, COM, META, NS = "#FA557D", "#FF00FA", "#909090", "#909CC3", "#909090", "#FF9B00"
+STR, STR2, NUM, COM, META, NS = "#FA557D", "#FF00FA", "#AFCEA2", "#909CC3", "#909090", "#FF9B00"
 BG = "#0C0C0C"  # same near-black as Modern Dark / Modern Cyan
 
 # UI (.theme.json / Islands) text uses Modern Cyan's #E8E8E8; the editor scheme

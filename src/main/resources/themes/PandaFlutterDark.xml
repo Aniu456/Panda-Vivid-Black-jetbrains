@@ -307,7 +307,7 @@
     </option>
     <option name="JAVA_NUMBER">
       <value>
-        <option name="FOREGROUND" value="909090"/>
+        <option name="FOREGROUND" value="afcea2"/>
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
@@ -428,7 +428,7 @@
     </option>
     <option name="KOTLIN_NUMBER">
       <value>
-        <option name="FOREGROUND" value="909090"/>
+        <option name="FOREGROUND" value="afcea2"/>
       </value>
     </option>
     <option name="KOTLIN_STRING_ESCAPE">
@@ -626,7 +626,7 @@
     </option>
     <option name="KOTLIN_SMART_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="909090"/>
+        <option name="FOREGROUND" value="afcea2"/>
         <option name="BACKGROUND" value="0E2A35"/>
       </value>
     </option>
@@ -647,7 +647,7 @@
     </option>
     <option name="DART_NUMBER">
       <value>
-        <option name="FOREGROUND" value="909090"/>
+        <option name="FOREGROUND" value="afcea2"/>
       </value>
     </option>
     <option name="DART_VALID_STRING_ESCAPE">
@@ -1023,7 +1023,7 @@
     </option>
     <option name="JSON_NUMBER">
       <value>
-        <option name="FOREGROUND" value="909090"/>
+        <option name="FOREGROUND" value="afcea2"/>
       </value>
     </option>
     <option name="JSON_KEYWORD">
@@ -1742,12 +1742,12 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="909090"/>
+        <option name="FOREGROUND" value="afcea2"/>
       </value>
     </option>
     <option name="NUMBER">
       <value>
-        <option name="FOREGROUND" value="909090"/>
+        <option name="FOREGROUND" value="afcea2"/>
       </value>
     </option>
     <option name="DEFAULT_COMMENT">
