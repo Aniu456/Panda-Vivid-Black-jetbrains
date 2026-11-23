@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.bennywu.panda-vivid-black</id>
     <name>Panda Vivid Black &amp; Modern Dark Theme</name>
-    <version>1.4.0</version>
+    <version>1.4.1</version>
     <vendor email="contact@bennywu.dev" url="https://github.com/Aniu456/panda-vivid-black">BennyWu</vendor>
 
     <description><![CDATA[
@@ -13,6 +13,8 @@
     ]]></description>
 
     <change-notes><![CDATA[
+        <b>1.4.1</b>
+        <ul><li>Panda Flutter Dark: numeric literals now use <code>#AFCEA2</code>, matching Panda Modern Cyan. Annotation colors are unchanged.</li></ul>
         <b>1.4.0</b>
         <ul>
             <li>New theme: Panda Flutter Dark (+ Islands variant), recreating the official DartPad / Flutter dark syntax colors on the Modern Dark / Modern Cyan near-black UI (<code>#0C0C0C</code> background): green keywords (<code>#50E191</code>), orange types (<code>#FF916E</code>), cyan functions / methods / fields / getters / parameters / named arguments / locals (<code>#00D2FA</code>), pink strings (<code>#FA557D</code>), gray numbers and annotations (<code>#909090</code>), blue-gray comments (<code>#909CC3</code>). Existing themes unchanged</li>

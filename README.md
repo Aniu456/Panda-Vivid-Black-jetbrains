@@ -1,4 +1,4 @@
-# Panda Vivid Black, Panda Modern Dark, Panda Modern Cyan & Panda Flutter Dark for JetBrains (v1.4.0)
+# Panda Vivid Black, Panda Modern Dark, Panda Modern Cyan & Panda Flutter Dark for JetBrains (v1.4.1)
 
 JetBrains / Android Studio port of the Panda Vivid Black VS Code themes. Includes:
 
@@ -11,7 +11,7 @@ Tuned separately for Kotlin (Compose annotations, extension functions, smart cas
 
 ## Install (Android Studio / IntelliJ)
 
-1. Download `panda-vivid-black-1.4.0.zip` from Releases.
+1. Download `panda-vivid-black-1.4.1.zip` from Releases.
 2. Settings → Plugins → ⚙ → **Install Plugin from Disk…**, pick the zip, restart.
 3. Settings → Appearance → Theme: choose Panda Vivid Black, Panda Modern Dark, Panda Modern Cyan, or Panda Flutter Dark.
 
