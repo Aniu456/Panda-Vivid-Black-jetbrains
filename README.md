@@ -5,15 +5,19 @@ JetBrains / Android Studio port of the Panda Vivid Black VS Code themes. Include
 - **Panda Vivid Black** (+ Islands variant)
 - **Panda Modern Dark** (+ Islands variant)
 - **Panda Modern Cyan** (+ Islands variant): cyan types (`#00C9B0`), blue named arguments and member method calls (`#79B8FF`), purple fields / property access and function declarations (`#B084FF`)
-- **Panda Flutter Dark** (+ Islands variant, new in 1.4.0): the official DartPad / Flutter dark syntax colors on the Modern Dark / Cyan near-black `#0C0C0C` UI — green keywords (`#50E191`), orange types (`#FF916E`), cyan identifiers / functions / properties / named arguments (`#00D2FA`), pink strings (`#FA557D`)
+- **Panda Flutter Dark** (+ Islands variant, new in 1.4.0): the official DartPad / Flutter dark syntax colors on the Modern Dark / Cyan near-black `#0C0C0C` UI — green keywords (`#50E191`), orange types (`#FF916E`), cyan identifiers / functions / properties / named arguments (`#00D2FA`), pink strings (`#FA557D`), numbers (`#AFCEA2`, updated in 1.4.1), and gray annotations (`#909090`)
 
 Tuned separately for Kotlin (Compose annotations, extension functions, smart casts, string templates) and Dart/Flutter (named parameters, static getters), plus Android XML, Gradle Kotlin DSL, Logcat, diff and VCS colors.
 
 ## Install (Android Studio / IntelliJ)
 
-1. Download `panda-vivid-black-1.4.1.zip` from Releases.
+1. Build or obtain `panda-vivid-black-1.4.1.zip`.
 2. Settings → Plugins → ⚙ → **Install Plugin from Disk…**, pick the zip, restart.
 3. Settings → Appearance → Theme: choose Panda Vivid Black, Panda Modern Dark, Panda Modern Cyan, or Panda Flutter Dark.
+
+## 1.4.1 update
+
+Panda Flutter Dark numeric literals now use `#AFCEA2`, matching Panda Modern Cyan. This applies to integers, decimals, and hexadecimal literals, including the Islands variant. Annotation colors are unchanged.
 
 ## Build
 
