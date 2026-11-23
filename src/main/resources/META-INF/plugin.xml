@@ -1,18 +1,24 @@
 <idea-plugin>
     <id>com.bennywu.panda-vivid-black</id>
     <name>Panda Vivid Black &amp; Modern Dark Theme</name>
-    <version>1.4.1</version>
-    <vendor email="contact@bennywu.dev" url="https://github.com/Aniu456/panda-vivid-black">BennyWu</vendor>
+    <version>1.4.2</version>
+    <vendor email="contact@bennywu.dev" url="https://github.com/Aniu456/Panda-Vivid-Black-jetbrains">BennyWu</vendor>
 
     <description><![CDATA[
-        <b>Panda Vivid Black</b> — Panda Syntax token semantics on a pure-black Vivid Black UI.<br><br>
-        Fuses the <a href="https://github.com/siamak/panda-syntax-vscode">Panda Syntax</a> palette
-        (pink keywords, teal strings, blue functions, italic teal types) with a deep-black
-        Vivid Black shell. Tuned for <b>Operator Mono</b>.<br><br>
-        Also includes <b>Panda Modern Dark</b>, <b>Panda Modern Cyan</b> and <b>Panda Flutter Dark</b>. Available for VS Code.
+        Four dark themes for JetBrains IDEs and Android Studio, each with an Islands variant:<br>
+        <ul>
+            <li><b>Panda Vivid Black</b>: pink keywords, teal types and strings, blue functions, and purple numbers.</li>
+            <li><b>Panda Modern Dark</b>: near-black UI, orange keywords, blue types, purple functions, and green strings.</li>
+            <li><b>Panda Modern Cyan</b>: cyan types, purple fields, and blue member method calls and named arguments.</li>
+            <li><b>Panda Flutter Dark</b>: green keywords, orange types, cyan identifiers, pink strings, and <code>#AFCEA2</code> numbers.</li>
+        </ul>
+        Includes language-specific styling for Dart/Flutter, Kotlin, Java, XML, and more.
+        Fonts are configured separately; no special font is required.
     ]]></description>
 
     <change-notes><![CDATA[
+        <b>1.4.2</b>
+        <ul><li>Refresh the four-theme description and project link. Add palette previews and configuration guidance to the repository README; syntax colors are unchanged from 1.4.1.</li></ul>
         <b>1.4.1</b>
         <ul><li>Panda Flutter Dark: numeric literals now use <code>#AFCEA2</code>, matching Panda Modern Cyan. Annotation colors are unchanged.</li></ul>
         <b>1.4.0</b>
